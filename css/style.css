@@ -1,0 +1,31 @@
+html{
+    position: relative;
+    min-height: 100vh;
+}
+
+body{
+    padding: 56px 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-item.active{
+    border-bottom:2px solid;
+    border-image: linear-gradient(to right,red, orange, yellow, green, blue, indigo, violet) 1;
+}
+
+#preview{
+    cursor:pointer;
+}
+
+#conversation, #users{
+    height: 60vh;
+    overflow-y: auto; /* scroll interne sur les div axe vertical */
+}
+
+.avatar{
+    width: 32px;
+}
